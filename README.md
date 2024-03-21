@@ -1,8 +1,7 @@
 # TRAFFIC-LIGTH-CODE
 
-from machine import Pin
+```from machine import Pin
 from time import sleep
-
 one = Pin(0, Pin.OUT)
 two = Pin(1, Pin.OUT)
 three = Pin(2, Pin.OUT)
@@ -18,8 +17,7 @@ twelve = Pin(11, Pin.OUT)
 thirteen = Pin(12, Pin.OUT)
 fourteen = Pin(13, Pin.OUT)
 fifteen = Pin(14, Pin.OUT)
-sixteen = Pin(15, Pin.OUT)
-
+sixteen = Pin(15, Pin.OUT)```
 
 button = Pin(0,Pin.IN)
 time = 0.01
